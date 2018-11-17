@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 
+// this is an HTML representation of the location list
 export default class LocationList extends Component {
   render() {
     return (

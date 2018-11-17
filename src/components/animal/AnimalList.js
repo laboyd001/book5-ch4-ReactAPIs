@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 
+// this is the HTML representation of the animal list
 export default class AnimalList extends Component {
   render() {
     return (

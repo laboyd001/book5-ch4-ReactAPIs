@@ -34,6 +34,10 @@ export default class ApplicationViews extends Component {
         .then (() => this.setState(newState))
     }
 
+
+
+    // You will notice the use of <React.Fragment />. That is simply a React wrapper around your old friend document.createDocumentFragment(). What this does is prevent unnecessary <div>, <article>, or <section> tags from being created.
+
     render() {
         return (
             <React.Fragment>

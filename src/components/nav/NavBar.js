@@ -4,7 +4,8 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-
+// this navbar is using bootstrap styling...  notice the classes below
+// Notice the use of the new <Link/> component that you get from the React Router package you installed. It has an attribute named to. It will render a hyperlink in your DOM, and when clicked, it will change the URL in the browser to the value of the to attribute.
 class NavBar extends Component {
     render() {
         return (

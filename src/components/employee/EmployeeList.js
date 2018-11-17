@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 
+// this is the HTML representation of the employee list
 export default class EmployeeList extends Component {
   render() {
     return (

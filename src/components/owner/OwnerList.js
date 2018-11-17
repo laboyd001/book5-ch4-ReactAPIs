@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 
+// This component will return an HTML representation of the owner list
 export default class OwnerList extends Component {
   render() {
     return (
