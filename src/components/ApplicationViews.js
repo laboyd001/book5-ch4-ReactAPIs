@@ -16,6 +16,14 @@ export default class ApplicationViews extends Component {
         owners: []
     }
 
+// One of the lifecycle methods available to every React component is componentDidMount.
+
+// componentDidMount() is invoked immediately after a component is mounted. Initialization that requires DOM nodes should go here. If you need to load data from a remote endpoint, this is a good place to instantiate the network request.
+
+// The componentDidMount() hook runs after the component output has been rendered to the DOM, so if your component needs API data, that is the place to do it. Here is how you would write it to retrieve animal data and employee data from an API being served by json-server on port 5002.
+
+// so it's basically saying once the component mounts we are taking data from json and setting them as properties on the state
+
     componentDidMount() {
         const newState = {}
 
